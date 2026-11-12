@@ -1,0 +1,43 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f4f4f9;
+    padding: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+input, select {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button {
+    width: 100%;
+    padding: 12px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+button:hover { background: #0056b3; }
+.btn-notify { background: #ffc107; color: black; width: auto; padding: 6px 12px; }
+.btn-seat { background: #28a745; width: auto; padding: 6px 12px; }
+.btn-cancel { background: #dc3545; width: auto; padding: 6px 12px; }
+.hidden { display: none; }
+.danger { background: #dc3545; margin-top: 15px; }
+.danger:hover { background: #c82333; }
+#status-card h1 { font-size: 48px; margin: 10px 0; color: #007bff; }
+table { width: 100%; border-collapse: collapse; margin-top: 15px; }
+th, td { padding: 10px; border: 1px solid #ccc; text-align: center; }
+th { background: #007bff; color: white; }

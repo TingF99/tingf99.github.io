@@ -1,0 +1,9 @@
+{
+    "url": "https://tingf99.github.io/waitlist/",
+    "output_file": "qr_waitlist.png",
+    "version": 3,
+    "error_correction": "M",
+    "image_size": "370x370",
+    "file_size_bytes": 1882,
+    "has_label": true
+}
